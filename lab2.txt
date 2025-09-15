@@ -1,1 +1,19 @@
+Lab 1
 Hey, I'm Gia! I am a second year Interaction Design student who is taking this course to gain a better understanding of how the components of a computer, their capabilities and limitations, and how to use them better! 
+
+
+
+Lab 2
+Question:You have created a GitHub repository and want to share it with your friend Bob by sending him the repository link. When Bob clicks the link in his web browser, some communication happens over the internet. Explain step by step what happens using the concepts of client and server.
+
+Step 1: Bob clicks the link in his browser. Bob's computer/phone is the client in this case because he is using it to access a resource. 
+
+Step 2: Browser asks for the DNS to turn github.com into an IP address. Github's web server is the server in this case!
+
+Step 3: The browser (on the client side) uses the IP address to connect to Github's web server using the HTTPS protocol
+
+Step 4: Bob's browser (the client) sends a GET request for the specific page/repository. This is how Bob's browser requests the repository content.
+
+Step 5: The server recieves the request and searches for the resource. It finds the repository and sets up the HTML, CSS, and JavaScript that make up the web page. Setting everything up for the client is how the server responds to the request. 
+
+Step 6: Bob recieves the response and admires the work of the repository shared! Yippie!
